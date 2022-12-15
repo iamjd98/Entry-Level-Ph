@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+
+.logo {
+    height: 50px;
+}
+
+#lp-sign-up-btn {
+   margin: 10px;
+}
+
+.lp-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.247),rgba(0, 0, 0, 0.178)) , url(./assets/lp-bg.jpg);;
+    height:480px;
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+
+.woman {
+    height: 81%;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.woman-img {
+    height: 405px;
+}
+
+.woman:hover {
+    transform: translateY(0) scale(1.1);
+    transition-duration: .3s;
+}
+
+.latest-job-post-con {
+    position: relative; 
+    bottom: 18px;
+    background-color: #5271FF;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.divider {
+    background-color: rgba(90, 90, 90, 0.377);
+    max-width: 50px;
+    height: 3px;
+    border-radius:2px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+    .lp-text-con {
+       text-align: center; 
+    }
+
+    .woman {
+       display: none;
+    }
+
+
+}
